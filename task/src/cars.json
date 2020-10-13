@@ -1,0 +1,41 @@
+[{
+        "id": "1",
+        "model": "audi pro",
+        "engine": {
+            "pro": "automatic",
+            "uber": ["automatic", "manual"],
+            "standard": ["automatic", "manual"],
+            "wk": "manual"
+        },
+        "color": ["white", "black", "red", "blue", "green", "gold"]
+    },
+    {
+        "id": "2",
+        "model": "audi uber",
+        "engine": {
+            "uber": ["automatic", "manual"],
+            "standard": ["automatic", "manual"],
+            "wk": "manual"
+        },
+        "color": ["white", "black", "red", "blue", "green", "silver"]
+    },
+    {
+        "id": "3",
+        "model": "audi standard",
+        "engine": {
+            "uber": "manual",
+            "standard": ["automatic", "manual"],
+            "wk": "manual"
+        },
+        "color": ["white", "black", "red", "blue", "green", "silver"]
+    },
+    {
+        "id": "4",
+        "model": "audi wk",
+        "engine": {
+            "standard": "manual",
+            "wk": "manual"
+        },
+        "color": ["white", "black", "red", "blue", "green"]
+    }
+]
